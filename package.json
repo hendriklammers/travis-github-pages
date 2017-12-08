@@ -4,6 +4,8 @@
   "description": "Trying to get deployment to Github pages working with Travis CI",
   "main": "src/index.js",
   "scripts": {
+    "clean": "rm -rf public/dist",
+    "deploy": "yarn run clean && mkdir -p public/dist && cp src/index.js public/dist/bundle.js"
   },
   "author": "Hendrik Lammers (www.hendriklammers.com)",
   "license": "MIT"
