@@ -1,6 +1,6 @@
 {
   "name": "travis-github-pages",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Trying to get deployment to Github pages working with Travis CI",
   "main": "src/index.js",
   "scripts": {
